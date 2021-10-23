@@ -10,7 +10,7 @@ void newPilha(Pilha *p)
 void push(Pilha *p, Carro c)
 {
 	if(p->n == MAX)
-	printf("\nEstacionamento cheio!\n");
+		printf("\nEstacionamento cheio!\n");
 	else {
 		Celula *tmp = malloc(sizeof(Celula));
 		tmp->dado = c;
