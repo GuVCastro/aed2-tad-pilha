@@ -42,8 +42,8 @@ int main(void)
 				push(&estacionamento, c);
 				printf("\nCarro inserido\n");
 				printPilha(&estacionamento);
-			}
 				break;
+			}
 
 			case 2:
 			{
@@ -66,8 +66,8 @@ int main(void)
 				}
 				printf("\nCarro removido!\n");
 				printPilha(&estacionamento);        
-			}
 				break;
+			}
 
 			default:	printf("\nOpcao Invalida!\n");
 		}
